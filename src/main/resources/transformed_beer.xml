@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+    <світле>
+        <Beer id="b1">
+            <Name>Оболонь Світле</Name>
+            <Manufacturer>Оболонь</Manufacturer>
+            <AlcoholVolume>4.5</AlcoholVolume>
+        </Beer>
+        <Beer id="b5">
+            <Name>Оболонь Безалкогольне</Name>
+            <Manufacturer>Оболонь</Manufacturer>
+            <AlcoholVolume>0.0</AlcoholVolume>
+        </Beer>
+    </світле>
+    <темне>
+        <Beer id="b2">
+            <Name>Львівське Різдвяне</Name>
+            <Manufacturer>Carlsberg Ukraine</Manufacturer>
+            <AlcoholVolume>4.4</AlcoholVolume>
+        </Beer>
+    </темне>
+    <лагерне>
+        <Beer id="b3">
+            <Name>ППБ Бочкове</Name>
+            <Manufacturer>Перша Приватна Броварня</Manufacturer>
+            <AlcoholVolume>4.8</AlcoholVolume>
+        </Beer>
+    </лагерне>
+    <живе>
+        <Beer id="b4">
+            <Name>Чернігівське Біле</Name>
+            <Manufacturer>AB InBev Efes Україна</Manufacturer>
+            <AlcoholVolume>4.8</AlcoholVolume>
+        </Beer>
+    </живе>
+</Root>

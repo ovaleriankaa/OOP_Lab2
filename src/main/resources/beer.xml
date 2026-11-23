@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeerCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="beer.xsd">
+
+    <Beer id="b1">
+        <Name>Оболонь Світле</Name>
+        <Type>світле</Type>
+        <Al>true</Al>
+        <Manufacturer>Оболонь</Manufacturer>
+        <Ingredients>
+            <Ingredient>вода</Ingredient>
+            <Ingredient>солод ячмінний світлий</Ingredient>
+            <Ingredient>хміль</Ingredient>
+        </Ingredients>
+        <Chars>
+            <AlcoholVolume>4.5</AlcoholVolume>
+            <Transparency>95</Transparency>
+            <Filtered>true</Filtered>
+            <Calories>41</Calories>
+            <Packaging volume="0.5" material="скло"/>
+        </Chars>
+    </Beer>
+
+    <Beer id="b2">
+        <Name>Львівське Різдвяне</Name>
+        <Type>темне</Type>
+        <Al>true</Al>
+        <Manufacturer>Carlsberg Ukraine</Manufacturer>
+        <Ingredients>
+            <Ingredient>вода</Ingredient>
+            <Ingredient>світлий ячмінний солод</Ingredient>
+            <Ingredient>карамельний солод</Ingredient>
+            <Ingredient>екстракт прянощів</Ingredient>
+            <Ingredient>хміль</Ingredient>
+        </Ingredients>
+        <Chars>
+            <AlcoholVolume>4.4</AlcoholVolume>
+            <Transparency>15</Transparency>
+            <Filtered>true</Filtered>
+            <Calories>48</Calories>
+            <Packaging volume="0.5" material="скло"/>
+        </Chars>
+    </Beer>
+
+    <Beer id="b3">
+        <Name>ППБ Бочкове</Name>
+        <Type>лагерне</Type>
+        <Al>true</Al>
+        <Manufacturer>Перша Приватна Броварня</Manufacturer>
+        <Ingredients>
+            <Ingredient>вода</Ingredient>
+            <Ingredient>ячмінний солод</Ingredient>
+            <Ingredient>хміль</Ingredient>
+        </Ingredients>
+        <Chars>
+            <AlcoholVolume>4.8</AlcoholVolume>
+            <Transparency>90</Transparency>
+            <Filtered>true</Filtered>
+            <Calories>43</Calories>
+            <Packaging volume="1.0" material="ПЕТ"/>
+        </Chars>
+    </Beer>
+
+    <Beer id="b4">
+        <Name>Чернігівське Біле</Name>
+        <Type>живе</Type>
+        <Al>true</Al>
+        <Manufacturer>AB InBev Efes Україна</Manufacturer>
+        <Ingredients>
+            <Ingredient>вода</Ingredient>
+            <Ingredient>солод пшеничний</Ingredient>
+            <Ingredient>солод ячмінний</Ingredient>
+            <Ingredient>коріандр</Ingredient>
+            <Ingredient>яблучний пектин</Ingredient>
+        </Ingredients>
+        <Chars>
+            <AlcoholVolume>4.8</AlcoholVolume>
+            <Transparency>20</Transparency>
+            <Filtered>false</Filtered>
+            <Calories>45</Calories>
+            <Packaging volume="0.5" material="бляшанка"/>
+        </Chars>
+    </Beer>
+
+    <Beer id="b5">
+        <Name>Оболонь Безалкогольне</Name>
+        <Type>світле</Type>
+        <Al>false</Al>
+        <Manufacturer>Оболонь</Manufacturer>
+        <Ingredients>
+            <Ingredient>вода</Ingredient>
+            <Ingredient>солод ячмінний світлий</Ingredient>
+            <Ingredient>хміль</Ingredient>
+        </Ingredients>
+        <Chars>
+            <AlcoholVolume>0.0</AlcoholVolume>
+            <Transparency>96</Transparency>
+            <Filtered>true</Filtered>
+            <Calories>15</Calories>
+            <Packaging volume="0.5" material="бляшанка"/>
+        </Chars>
+    </Beer>
+
+</BeerCatalog>
